@@ -7,6 +7,8 @@ type Props = {
   };
 };
 
+export const revalidate = 3;
+
 export function generateMetadata({ params }: Props) {
   return {
     title: `${params.slug} Page`,
