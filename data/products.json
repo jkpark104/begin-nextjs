@@ -2,16 +2,19 @@
   {
     "id": "1234",
     "name": "청바지",
-    "product": 5000
+    "product": 5000,
+    "image": "jeans.jpg"
   },
   {
     "id": "1235",
     "name": "티셔츠",
-    "product": 7000
+    "product": 7000,
+    "image": "tshirt.jpg"
   },
   {
     "id": "1236",
     "name": "부츠",
-    "product": 12000
+    "product": 12000,
+    "image": "shoes.jpg"
   }
 ]

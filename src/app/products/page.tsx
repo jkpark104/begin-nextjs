@@ -1,6 +1,8 @@
 import MeowArticle from "@/components/MeowArticle";
 import { getProducts } from "@/services/products";
+import Image from "next/image";
 import Link from "next/link";
+import clothesImage from "/public/images/clothes.jpg";
 
 // export const revalidate = 3;
 
@@ -11,6 +13,7 @@ export default async function ProductsPage() {
   return (
     <>
       <h1>제품 소개 페이지!</h1>
+      <Image src={clothesImage} alt="Clothes" priority />
       <ul>
         {products.map((product, index) => {
           return (
